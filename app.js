@@ -3,7 +3,7 @@ const app = express();
 const port= 3000;
 const mysql=require('mysql');
 
-
+// olá
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 
